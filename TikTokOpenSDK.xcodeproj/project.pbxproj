@@ -1,0 +1,1260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186E66C52A56F0EA00D70644 /* TikTokRequestHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E662D2A56F0EA00D70644 /* TikTokRequestHandling.swift */; };
+		186E66C62A56F0EA00D70644 /* TikTokBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E662E2A56F0EA00D70644 /* TikTokBase.swift */; };
+		186E66C72A56F0EA00D70644 /* TikTokURLQueryParamsConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E662F2A56F0EA00D70644 /* TikTokURLQueryParamsConvertible.swift */; };
+		186E66C82A56F0EA00D70644 /* TikTokResponseHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66302A56F0EA00D70644 /* TikTokResponseHandling.swift */; };
+		186E66C92A56F0EA00D70644 /* TikTokRSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66322A56F0EA00D70644 /* TikTokRSA.swift */; };
+		186E66CA2A56F0EA00D70644 /* TikTokUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66332A56F0EA00D70644 /* TikTokUtils.swift */; };
+		186E66CB2A56F0EA00D70644 /* TikTokInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66342A56F0EA00D70644 /* TikTokInfo.swift */; };
+		186E66CC2A56F0EA00D70644 /* TikTokURLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66362A56F0EA00D70644 /* TikTokURLHandler.swift */; };
+		186E66CD2A56F0EA00D70644 /* TikTokAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66382A56F0EA00D70644 /* TikTokAPI.swift */; };
+		186E66CE2A56F0EA00D70644 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 186E66392A56F0EA00D70644 /* .gitkeep */; };
+		186E66CF2A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E663C2A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m */; };
+		186E66D02A56F0EA00D70644 /* TikTokAuthRequest+URLParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66412A56F0EA00D70644 /* TikTokAuthRequest+URLParams.swift */; };
+		186E66D12A56F0EA00D70644 /* TikTokAuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66422A56F0EA00D70644 /* TikTokAuthRequest.swift */; };
+		186E66D22A56F0EA00D70644 /* PKCE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66432A56F0EA00D70644 /* PKCE.swift */; };
+		186E66D32A56F0EA00D70644 /* TikTokAuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66442A56F0EA00D70644 /* TikTokAuthResponse.swift */; };
+		186E66D42A56F0EA00D70644 /* TikTokAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66462A56F0EA00D70644 /* TikTokAuthService.swift */; };
+		186E66D52A56F0EA00D70644 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 186E66472A56F0EA00D70644 /* .gitkeep */; };
+		186E66D62A56F0EA00D70644 /* TikTokUtilTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E664A2A56F0EA00D70644 /* TikTokUtilTest.swift */; };
+		186E66D72A56F0EA00D70644 /* TikTokTestEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E664C2A56F0EA00D70644 /* TikTokTestEnv.swift */; };
+		186E66D82A56F0EA00D70644 /* TikTokAuthRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E664D2A56F0EA00D70644 /* TikTokAuthRequestTest.swift */; };
+		186E66D92A56F0EA00D70644 /* TikTokHandlerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E664E2A56F0EA00D70644 /* TikTokHandlerTest.swift */; };
+		186E66DA2A56F0EA00D70644 /* TikTokAuthResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E664F2A56F0EA00D70644 /* TikTokAuthResponseTest.swift */; };
+		186E66DB2A56F0EA00D70644 /* TikTokAuthServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66512A56F0EA00D70644 /* TikTokAuthServiceTest.swift */; };
+		186E66DC2A56F0EA00D70644 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 186E66532A56F0EA00D70644 /* .gitkeep */; };
+		186E66DD2A56F0EA00D70644 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186E66542A56F0EA00D70644 /* Images.xcassets */; };
+		186E66DE2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66572A56F0EA00D70644 /* Passport.strings */; };
+		186E66DF2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66592A56F0EA00D70644 /* Passport.strings */; };
+		186E66E02A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E665B2A56F0EA00D70644 /* Passport.strings */; };
+		186E66E12A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E665D2A56F0EA00D70644 /* Passport.strings */; };
+		186E66E22A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E665F2A56F0EA00D70644 /* Passport.strings */; };
+		186E66E32A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66612A56F0EA00D70644 /* Passport.strings */; };
+		186E66E42A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66632A56F0EA00D70644 /* Passport.strings */; };
+		186E66E52A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66652A56F0EA00D70644 /* Passport.strings */; };
+		186E66E62A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66672A56F0EA00D70644 /* Passport.strings */; };
+		186E66E72A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66692A56F0EA00D70644 /* Passport.strings */; };
+		186E66E82A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E666B2A56F0EA00D70644 /* Passport.strings */; };
+		186E66E92A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E666D2A56F0EA00D70644 /* Passport.strings */; };
+		186E66EA2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E666F2A56F0EA00D70644 /* Passport.strings */; };
+		186E66EB2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66712A56F0EA00D70644 /* Passport.strings */; };
+		186E66EC2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66732A56F0EA00D70644 /* Passport.strings */; };
+		186E66ED2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66752A56F0EA00D70644 /* Passport.strings */; };
+		186E66EE2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66772A56F0EA00D70644 /* Passport.strings */; };
+		186E66EF2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66792A56F0EA00D70644 /* Passport.strings */; };
+		186E66F02A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E667B2A56F0EA00D70644 /* Passport.strings */; };
+		186E66F12A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E667D2A56F0EA00D70644 /* Passport.strings */; };
+		186E66F22A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E667F2A56F0EA00D70644 /* Passport.strings */; };
+		186E66F32A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66812A56F0EA00D70644 /* Passport.strings */; };
+		186E66F42A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66832A56F0EA00D70644 /* Passport.strings */; };
+		186E66F52A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66852A56F0EA00D70644 /* Passport.strings */; };
+		186E66F62A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66872A56F0EA00D70644 /* Passport.strings */; };
+		186E66F72A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66892A56F0EA00D70644 /* Passport.strings */; };
+		186E66F82A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E668B2A56F0EA00D70644 /* Passport.strings */; };
+		186E66F92A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E668D2A56F0EA00D70644 /* Passport.strings */; };
+		186E66FA2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E668F2A56F0EA00D70644 /* Passport.strings */; };
+		186E66FB2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66912A56F0EA00D70644 /* Passport.strings */; };
+		186E66FC2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66932A56F0EA00D70644 /* Passport.strings */; };
+		186E66FD2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66952A56F0EA00D70644 /* Passport.strings */; };
+		186E66FE2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66972A56F0EA00D70644 /* Passport.strings */; };
+		186E66FF2A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66992A56F0EA00D70644 /* Passport.strings */; };
+		186E67002A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E669B2A56F0EA00D70644 /* Passport.strings */; };
+		186E67012A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E669D2A56F0EA00D70644 /* Passport.strings */; };
+		186E67022A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E669F2A56F0EA00D70644 /* Passport.strings */; };
+		186E67032A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66A12A56F0EA00D70644 /* Passport.strings */; };
+		186E67042A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66A32A56F0EA00D70644 /* Passport.strings */; };
+		186E67052A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66A52A56F0EA00D70644 /* Passport.strings */; };
+		186E67062A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66A72A56F0EA00D70644 /* Passport.strings */; };
+		186E67072A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66A92A56F0EA00D70644 /* Passport.strings */; };
+		186E67082A56F0EA00D70644 /* Passport.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186E66AB2A56F0EA00D70644 /* Passport.strings */; };
+		186E67092A56F0EA00D70644 /* TikTokShareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66B02A56F0EA00D70644 /* TikTokShareRequest.swift */; };
+		186E670A2A56F0EA00D70644 /* TikTokShareResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66B12A56F0EA00D70644 /* TikTokShareResponse.swift */; };
+		186E670B2A56F0EA00D70644 /* TikTokShareRequest+URLParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66B22A56F0EA00D70644 /* TikTokShareRequest+URLParams.swift */; };
+		186E670C2A56F0EA00D70644 /* TikTokShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66B42A56F0EA00D70644 /* TikTokShareService.swift */; };
+		186E670D2A56F0EA00D70644 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 186E66B52A56F0EA00D70644 /* .gitkeep */; };
+		186E670E2A56F0EA00D70644 /* TikTokShareRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66B82A56F0EA00D70644 /* TikTokShareRequestTest.swift */; };
+		186E670F2A56F0EA00D70644 /* TikTokTestEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66B92A56F0EA00D70644 /* TikTokTestEnv.swift */; };
+		186E67102A56F0EA00D70644 /* TikTokShareResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66BA2A56F0EA00D70644 /* TikTokShareResponseTest.swift */; };
+		186E67112A56F0EA00D70644 /* TikTokHandlerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66BB2A56F0EA00D70644 /* TikTokHandlerTest.swift */; };
+		186E67122A56F0EA00D70644 /* TikTokShareServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186E66BD2A56F0EA00D70644 /* TikTokShareServiceTest.swift */; };
+		186E67132A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E66C02A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m */; };
+		186E67142A56F0EA00D70644 /* TikTokOpenPlatformSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E66C22A56F0EA00D70644 /* TikTokOpenPlatformSDKDemoTests.m */; };
+		186E67152A56F0EA00D70644 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 186E66C42A56F0EA00D70644 /* .gitkeep */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186E662D2A56F0EA00D70644 /* TikTokRequestHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokRequestHandling.swift; sourceTree = "<group>"; };
+		186E662E2A56F0EA00D70644 /* TikTokBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokBase.swift; sourceTree = "<group>"; };
+		186E662F2A56F0EA00D70644 /* TikTokURLQueryParamsConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokURLQueryParamsConvertible.swift; sourceTree = "<group>"; };
+		186E66302A56F0EA00D70644 /* TikTokResponseHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokResponseHandling.swift; sourceTree = "<group>"; };
+		186E66322A56F0EA00D70644 /* TikTokRSA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokRSA.swift; sourceTree = "<group>"; };
+		186E66332A56F0EA00D70644 /* TikTokUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokUtils.swift; sourceTree = "<group>"; };
+		186E66342A56F0EA00D70644 /* TikTokInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokInfo.swift; sourceTree = "<group>"; };
+		186E66362A56F0EA00D70644 /* TikTokURLHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokURLHandler.swift; sourceTree = "<group>"; };
+		186E66382A56F0EA00D70644 /* TikTokAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAPI.swift; sourceTree = "<group>"; };
+		186E66392A56F0EA00D70644 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		186E663C2A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TikTokOpenPlatformSDKDummy.m; sourceTree = "<group>"; };
+		186E66412A56F0EA00D70644 /* TikTokAuthRequest+URLParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TikTokAuthRequest+URLParams.swift"; sourceTree = "<group>"; };
+		186E66422A56F0EA00D70644 /* TikTokAuthRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAuthRequest.swift; sourceTree = "<group>"; };
+		186E66432A56F0EA00D70644 /* PKCE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKCE.swift; sourceTree = "<group>"; };
+		186E66442A56F0EA00D70644 /* TikTokAuthResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAuthResponse.swift; sourceTree = "<group>"; };
+		186E66462A56F0EA00D70644 /* TikTokAuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAuthService.swift; sourceTree = "<group>"; };
+		186E66472A56F0EA00D70644 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		186E664A2A56F0EA00D70644 /* TikTokUtilTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokUtilTest.swift; sourceTree = "<group>"; };
+		186E664C2A56F0EA00D70644 /* TikTokTestEnv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokTestEnv.swift; sourceTree = "<group>"; };
+		186E664D2A56F0EA00D70644 /* TikTokAuthRequestTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAuthRequestTest.swift; sourceTree = "<group>"; };
+		186E664E2A56F0EA00D70644 /* TikTokHandlerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokHandlerTest.swift; sourceTree = "<group>"; };
+		186E664F2A56F0EA00D70644 /* TikTokAuthResponseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAuthResponseTest.swift; sourceTree = "<group>"; };
+		186E66512A56F0EA00D70644 /* TikTokAuthServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAuthServiceTest.swift; sourceTree = "<group>"; };
+		186E66532A56F0EA00D70644 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		186E66542A56F0EA00D70644 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		186E66572A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66592A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E665B2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E665D2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E665F2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66612A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66632A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66652A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66672A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66692A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E666B2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E666D2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E666F2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66712A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66732A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66752A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66772A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66792A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E667B2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E667D2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E667F2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66812A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66832A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66852A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66872A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66892A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E668B2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E668D2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E668F2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66912A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66932A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66952A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66972A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66992A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E669B2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E669D2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E669F2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66A12A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66A32A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66A52A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66A72A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66A92A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66AB2A56F0EA00D70644 /* Passport.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Passport.strings; sourceTree = "<group>"; };
+		186E66B02A56F0EA00D70644 /* TikTokShareRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokShareRequest.swift; sourceTree = "<group>"; };
+		186E66B12A56F0EA00D70644 /* TikTokShareResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokShareResponse.swift; sourceTree = "<group>"; };
+		186E66B22A56F0EA00D70644 /* TikTokShareRequest+URLParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TikTokShareRequest+URLParams.swift"; sourceTree = "<group>"; };
+		186E66B42A56F0EA00D70644 /* TikTokShareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokShareService.swift; sourceTree = "<group>"; };
+		186E66B52A56F0EA00D70644 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		186E66B82A56F0EA00D70644 /* TikTokShareRequestTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokShareRequestTest.swift; sourceTree = "<group>"; };
+		186E66B92A56F0EA00D70644 /* TikTokTestEnv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokTestEnv.swift; sourceTree = "<group>"; };
+		186E66BA2A56F0EA00D70644 /* TikTokShareResponseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokShareResponseTest.swift; sourceTree = "<group>"; };
+		186E66BB2A56F0EA00D70644 /* TikTokHandlerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokHandlerTest.swift; sourceTree = "<group>"; };
+		186E66BD2A56F0EA00D70644 /* TikTokShareServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokShareServiceTest.swift; sourceTree = "<group>"; };
+		186E66C02A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TikTokOpenPlatformSDKDummy.m; sourceTree = "<group>"; };
+		186E66C22A56F0EA00D70644 /* TikTokOpenPlatformSDKDemoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TikTokOpenPlatformSDKDemoTests.m; sourceTree = "<group>"; };
+		186E66C42A56F0EA00D70644 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1884BD902A56EBC600518ED3 /* TikTokOpenSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TikTokOpenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1884BD8D2A56EBC600518ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186E66292A56F0EA00D70644 /* TikTokOpenSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				186E662A2A56F0EA00D70644 /* Classes */,
+				186E663A2A56F0EA00D70644 /* Tests */,
+			);
+			path = TikTokOpenSDKCore;
+			sourceTree = "<group>";
+		};
+		186E662A2A56F0EA00D70644 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				186E662B2A56F0EA00D70644 /* Core */,
+				186E66392A56F0EA00D70644 /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		186E662B2A56F0EA00D70644 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				186E662C2A56F0EA00D70644 /* Internal */,
+				186E66312A56F0EA00D70644 /* Utils */,
+				186E66352A56F0EA00D70644 /* Public */,
+				186E66372A56F0EA00D70644 /* Service */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		186E662C2A56F0EA00D70644 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				186E662D2A56F0EA00D70644 /* TikTokRequestHandling.swift */,
+				186E662E2A56F0EA00D70644 /* TikTokBase.swift */,
+				186E662F2A56F0EA00D70644 /* TikTokURLQueryParamsConvertible.swift */,
+				186E66302A56F0EA00D70644 /* TikTokResponseHandling.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		186E66312A56F0EA00D70644 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				186E66322A56F0EA00D70644 /* TikTokRSA.swift */,
+				186E66332A56F0EA00D70644 /* TikTokUtils.swift */,
+				186E66342A56F0EA00D70644 /* TikTokInfo.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		186E66352A56F0EA00D70644 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				186E66362A56F0EA00D70644 /* TikTokURLHandler.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		186E66372A56F0EA00D70644 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				186E66382A56F0EA00D70644 /* TikTokAPI.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		186E663A2A56F0EA00D70644 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				186E663B2A56F0EA00D70644 /* _Dummy */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		186E663B2A56F0EA00D70644 /* _Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				186E663C2A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m */,
+			);
+			path = _Dummy;
+			sourceTree = "<group>";
+		};
+		186E663D2A56F0EA00D70644 /* TikTokOpenAuthSDK */ = {
+			isa = PBXGroup;
+			children = (
+				186E663E2A56F0EA00D70644 /* Classes */,
+				186E66522A56F0EA00D70644 /* Assets */,
+			);
+			path = TikTokOpenAuthSDK;
+			sourceTree = "<group>";
+		};
+		186E663E2A56F0EA00D70644 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				186E663F2A56F0EA00D70644 /* Core */,
+				186E66472A56F0EA00D70644 /* .gitkeep */,
+				186E66482A56F0EA00D70644 /* Tests */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		186E663F2A56F0EA00D70644 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				186E66402A56F0EA00D70644 /* Public */,
+				186E66452A56F0EA00D70644 /* Service */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		186E66402A56F0EA00D70644 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				186E66412A56F0EA00D70644 /* TikTokAuthRequest+URLParams.swift */,
+				186E66422A56F0EA00D70644 /* TikTokAuthRequest.swift */,
+				186E66432A56F0EA00D70644 /* PKCE.swift */,
+				186E66442A56F0EA00D70644 /* TikTokAuthResponse.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		186E66452A56F0EA00D70644 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				186E66462A56F0EA00D70644 /* TikTokAuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		186E66482A56F0EA00D70644 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				186E66492A56F0EA00D70644 /* Utils */,
+				186E664B2A56F0EA00D70644 /* Public */,
+				186E66502A56F0EA00D70644 /* Service */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		186E66492A56F0EA00D70644 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				186E664A2A56F0EA00D70644 /* TikTokUtilTest.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		186E664B2A56F0EA00D70644 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				186E664C2A56F0EA00D70644 /* TikTokTestEnv.swift */,
+				186E664D2A56F0EA00D70644 /* TikTokAuthRequestTest.swift */,
+				186E664E2A56F0EA00D70644 /* TikTokHandlerTest.swift */,
+				186E664F2A56F0EA00D70644 /* TikTokAuthResponseTest.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		186E66502A56F0EA00D70644 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				186E66512A56F0EA00D70644 /* TikTokAuthServiceTest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		186E66522A56F0EA00D70644 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				186E66532A56F0EA00D70644 /* .gitkeep */,
+				186E66542A56F0EA00D70644 /* Images.xcassets */,
+				186E66552A56F0EA00D70644 /* TikTokLocalizable */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		186E66552A56F0EA00D70644 /* TikTokLocalizable */ = {
+			isa = PBXGroup;
+			children = (
+				186E66562A56F0EA00D70644 /* pl */,
+				186E66582A56F0EA00D70644 /* vi */,
+				186E665A2A56F0EA00D70644 /* sv */,
+				186E665C2A56F0EA00D70644 /* ms */,
+				186E665E2A56F0EA00D70644 /* km */,
+				186E66602A56F0EA00D70644 /* mr */,
+				186E66622A56F0EA00D70644 /* gu */,
+				186E66642A56F0EA00D70644 /* pt_BR */,
+				186E66662A56F0EA00D70644 /* ja */,
+				186E66682A56F0EA00D70644 /* el */,
+				186E666A2A56F0EA00D70644 /* it */,
+				186E666C2A56F0EA00D70644 /* zh_TW */,
+				186E666E2A56F0EA00D70644 /* cs */,
+				186E66702A56F0EA00D70644 /* nso */,
+				186E66722A56F0EA00D70644 /* te */,
+				186E66742A56F0EA00D70644 /* ru */,
+				186E66762A56F0EA00D70644 /* ro */,
+				186E66782A56F0EA00D70644 /* zu */,
+				186E667A2A56F0EA00D70644 /* zh */,
+				186E667C2A56F0EA00D70644 /* uk */,
+				186E667E2A56F0EA00D70644 /* pa */,
+				186E66802A56F0EA00D70644 /* ml */,
+				186E66822A56F0EA00D70644 /* kn */,
+				186E66842A56F0EA00D70644 /* my */,
+				186E66862A56F0EA00D70644 /* ar */,
+				186E66882A56F0EA00D70644 /* hu */,
+				186E668A2A56F0EA00D70644 /* nl */,
+				186E668C2A56F0EA00D70644 /* bn */,
+				186E668E2A56F0EA00D70644 /* fil */,
+				186E66902A56F0EA00D70644 /* af */,
+				186E66922A56F0EA00D70644 /* hi */,
+				186E66942A56F0EA00D70644 /* de */,
+				186E66962A56F0EA00D70644 /* ko */,
+				186E66982A56F0EA00D70644 /* id */,
+				186E669A2A56F0EA00D70644 /* fr */,
+				186E669C2A56F0EA00D70644 /* es */,
+				186E669E2A56F0EA00D70644 /* en */,
+				186E66A02A56F0EA00D70644 /* or */,
+				186E66A22A56F0EA00D70644 /* jv */,
+				186E66A42A56F0EA00D70644 /* ta */,
+				186E66A62A56F0EA00D70644 /* th */,
+				186E66A82A56F0EA00D70644 /* tr */,
+				186E66AA2A56F0EA00D70644 /* ceb */,
+			);
+			path = TikTokLocalizable;
+			sourceTree = "<group>";
+		};
+		186E66562A56F0EA00D70644 /* pl */ = {
+			isa = PBXGroup;
+			children = (
+				186E66572A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = pl;
+			sourceTree = "<group>";
+		};
+		186E66582A56F0EA00D70644 /* vi */ = {
+			isa = PBXGroup;
+			children = (
+				186E66592A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = vi;
+			sourceTree = "<group>";
+		};
+		186E665A2A56F0EA00D70644 /* sv */ = {
+			isa = PBXGroup;
+			children = (
+				186E665B2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = sv;
+			sourceTree = "<group>";
+		};
+		186E665C2A56F0EA00D70644 /* ms */ = {
+			isa = PBXGroup;
+			children = (
+				186E665D2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = ms;
+			sourceTree = "<group>";
+		};
+		186E665E2A56F0EA00D70644 /* km */ = {
+			isa = PBXGroup;
+			children = (
+				186E665F2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = km;
+			sourceTree = "<group>";
+		};
+		186E66602A56F0EA00D70644 /* mr */ = {
+			isa = PBXGroup;
+			children = (
+				186E66612A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = mr;
+			sourceTree = "<group>";
+		};
+		186E66622A56F0EA00D70644 /* gu */ = {
+			isa = PBXGroup;
+			children = (
+				186E66632A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = gu;
+			sourceTree = "<group>";
+		};
+		186E66642A56F0EA00D70644 /* pt_BR */ = {
+			isa = PBXGroup;
+			children = (
+				186E66652A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = pt_BR;
+			sourceTree = "<group>";
+		};
+		186E66662A56F0EA00D70644 /* ja */ = {
+			isa = PBXGroup;
+			children = (
+				186E66672A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = ja;
+			sourceTree = "<group>";
+		};
+		186E66682A56F0EA00D70644 /* el */ = {
+			isa = PBXGroup;
+			children = (
+				186E66692A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = el;
+			sourceTree = "<group>";
+		};
+		186E666A2A56F0EA00D70644 /* it */ = {
+			isa = PBXGroup;
+			children = (
+				186E666B2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = it;
+			sourceTree = "<group>";
+		};
+		186E666C2A56F0EA00D70644 /* zh_TW */ = {
+			isa = PBXGroup;
+			children = (
+				186E666D2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = zh_TW;
+			sourceTree = "<group>";
+		};
+		186E666E2A56F0EA00D70644 /* cs */ = {
+			isa = PBXGroup;
+			children = (
+				186E666F2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = cs;
+			sourceTree = "<group>";
+		};
+		186E66702A56F0EA00D70644 /* nso */ = {
+			isa = PBXGroup;
+			children = (
+				186E66712A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = nso;
+			sourceTree = "<group>";
+		};
+		186E66722A56F0EA00D70644 /* te */ = {
+			isa = PBXGroup;
+			children = (
+				186E66732A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = te;
+			sourceTree = "<group>";
+		};
+		186E66742A56F0EA00D70644 /* ru */ = {
+			isa = PBXGroup;
+			children = (
+				186E66752A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = ru;
+			sourceTree = "<group>";
+		};
+		186E66762A56F0EA00D70644 /* ro */ = {
+			isa = PBXGroup;
+			children = (
+				186E66772A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = ro;
+			sourceTree = "<group>";
+		};
+		186E66782A56F0EA00D70644 /* zu */ = {
+			isa = PBXGroup;
+			children = (
+				186E66792A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = zu;
+			sourceTree = "<group>";
+		};
+		186E667A2A56F0EA00D70644 /* zh */ = {
+			isa = PBXGroup;
+			children = (
+				186E667B2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = zh;
+			sourceTree = "<group>";
+		};
+		186E667C2A56F0EA00D70644 /* uk */ = {
+			isa = PBXGroup;
+			children = (
+				186E667D2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = uk;
+			sourceTree = "<group>";
+		};
+		186E667E2A56F0EA00D70644 /* pa */ = {
+			isa = PBXGroup;
+			children = (
+				186E667F2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = pa;
+			sourceTree = "<group>";
+		};
+		186E66802A56F0EA00D70644 /* ml */ = {
+			isa = PBXGroup;
+			children = (
+				186E66812A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = ml;
+			sourceTree = "<group>";
+		};
+		186E66822A56F0EA00D70644 /* kn */ = {
+			isa = PBXGroup;
+			children = (
+				186E66832A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = kn;
+			sourceTree = "<group>";
+		};
+		186E66842A56F0EA00D70644 /* my */ = {
+			isa = PBXGroup;
+			children = (
+				186E66852A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = my;
+			sourceTree = "<group>";
+		};
+		186E66862A56F0EA00D70644 /* ar */ = {
+			isa = PBXGroup;
+			children = (
+				186E66872A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = ar;
+			sourceTree = "<group>";
+		};
+		186E66882A56F0EA00D70644 /* hu */ = {
+			isa = PBXGroup;
+			children = (
+				186E66892A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = hu;
+			sourceTree = "<group>";
+		};
+		186E668A2A56F0EA00D70644 /* nl */ = {
+			isa = PBXGroup;
+			children = (
+				186E668B2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = nl;
+			sourceTree = "<group>";
+		};
+		186E668C2A56F0EA00D70644 /* bn */ = {
+			isa = PBXGroup;
+			children = (
+				186E668D2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = bn;
+			sourceTree = "<group>";
+		};
+		186E668E2A56F0EA00D70644 /* fil */ = {
+			isa = PBXGroup;
+			children = (
+				186E668F2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = fil;
+			sourceTree = "<group>";
+		};
+		186E66902A56F0EA00D70644 /* af */ = {
+			isa = PBXGroup;
+			children = (
+				186E66912A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = af;
+			sourceTree = "<group>";
+		};
+		186E66922A56F0EA00D70644 /* hi */ = {
+			isa = PBXGroup;
+			children = (
+				186E66932A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = hi;
+			sourceTree = "<group>";
+		};
+		186E66942A56F0EA00D70644 /* de */ = {
+			isa = PBXGroup;
+			children = (
+				186E66952A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = de;
+			sourceTree = "<group>";
+		};
+		186E66962A56F0EA00D70644 /* ko */ = {
+			isa = PBXGroup;
+			children = (
+				186E66972A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = ko;
+			sourceTree = "<group>";
+		};
+		186E66982A56F0EA00D70644 /* id */ = {
+			isa = PBXGroup;
+			children = (
+				186E66992A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = id;
+			sourceTree = "<group>";
+		};
+		186E669A2A56F0EA00D70644 /* fr */ = {
+			isa = PBXGroup;
+			children = (
+				186E669B2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = fr;
+			sourceTree = "<group>";
+		};
+		186E669C2A56F0EA00D70644 /* es */ = {
+			isa = PBXGroup;
+			children = (
+				186E669D2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = es;
+			sourceTree = "<group>";
+		};
+		186E669E2A56F0EA00D70644 /* en */ = {
+			isa = PBXGroup;
+			children = (
+				186E669F2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = en;
+			sourceTree = "<group>";
+		};
+		186E66A02A56F0EA00D70644 /* or */ = {
+			isa = PBXGroup;
+			children = (
+				186E66A12A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = or;
+			sourceTree = "<group>";
+		};
+		186E66A22A56F0EA00D70644 /* jv */ = {
+			isa = PBXGroup;
+			children = (
+				186E66A32A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = jv;
+			sourceTree = "<group>";
+		};
+		186E66A42A56F0EA00D70644 /* ta */ = {
+			isa = PBXGroup;
+			children = (
+				186E66A52A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = ta;
+			sourceTree = "<group>";
+		};
+		186E66A62A56F0EA00D70644 /* th */ = {
+			isa = PBXGroup;
+			children = (
+				186E66A72A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = th;
+			sourceTree = "<group>";
+		};
+		186E66A82A56F0EA00D70644 /* tr */ = {
+			isa = PBXGroup;
+			children = (
+				186E66A92A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = tr;
+			sourceTree = "<group>";
+		};
+		186E66AA2A56F0EA00D70644 /* ceb */ = {
+			isa = PBXGroup;
+			children = (
+				186E66AB2A56F0EA00D70644 /* Passport.strings */,
+			);
+			path = ceb;
+			sourceTree = "<group>";
+		};
+		186E66AC2A56F0EA00D70644 /* TikTokOpenShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				186E66AD2A56F0EA00D70644 /* Classes */,
+				186E66BE2A56F0EA00D70644 /* Tests */,
+				186E66C32A56F0EA00D70644 /* Assets */,
+			);
+			path = TikTokOpenShareSDK;
+			sourceTree = "<group>";
+		};
+		186E66AD2A56F0EA00D70644 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				186E66AE2A56F0EA00D70644 /* Core */,
+				186E66B52A56F0EA00D70644 /* .gitkeep */,
+				186E66B62A56F0EA00D70644 /* Tests */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		186E66AE2A56F0EA00D70644 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				186E66AF2A56F0EA00D70644 /* Public */,
+				186E66B32A56F0EA00D70644 /* Service */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		186E66AF2A56F0EA00D70644 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				186E66B02A56F0EA00D70644 /* TikTokShareRequest.swift */,
+				186E66B12A56F0EA00D70644 /* TikTokShareResponse.swift */,
+				186E66B22A56F0EA00D70644 /* TikTokShareRequest+URLParams.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		186E66B32A56F0EA00D70644 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				186E66B42A56F0EA00D70644 /* TikTokShareService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		186E66B62A56F0EA00D70644 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				186E66B72A56F0EA00D70644 /* Public */,
+				186E66BC2A56F0EA00D70644 /* Service */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		186E66B72A56F0EA00D70644 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				186E66B82A56F0EA00D70644 /* TikTokShareRequestTest.swift */,
+				186E66B92A56F0EA00D70644 /* TikTokTestEnv.swift */,
+				186E66BA2A56F0EA00D70644 /* TikTokShareResponseTest.swift */,
+				186E66BB2A56F0EA00D70644 /* TikTokHandlerTest.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		186E66BC2A56F0EA00D70644 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				186E66BD2A56F0EA00D70644 /* TikTokShareServiceTest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		186E66BE2A56F0EA00D70644 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				186E66BF2A56F0EA00D70644 /* _Dummy */,
+				186E66C12A56F0EA00D70644 /* src */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		186E66BF2A56F0EA00D70644 /* _Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				186E66C02A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m */,
+			);
+			path = _Dummy;
+			sourceTree = "<group>";
+		};
+		186E66C12A56F0EA00D70644 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				186E66C22A56F0EA00D70644 /* TikTokOpenPlatformSDKDemoTests.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		186E66C32A56F0EA00D70644 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				186E66C42A56F0EA00D70644 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1884BD862A56EBC600518ED3 = {
+			isa = PBXGroup;
+			children = (
+				186E663D2A56F0EA00D70644 /* TikTokOpenAuthSDK */,
+				186E66292A56F0EA00D70644 /* TikTokOpenSDKCore */,
+				186E66AC2A56F0EA00D70644 /* TikTokOpenShareSDK */,
+				1884BD912A56EBC600518ED3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1884BD912A56EBC600518ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1884BD902A56EBC600518ED3 /* TikTokOpenSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1884BD8B2A56EBC600518ED3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1884BD8F2A56EBC600518ED3 /* TikTokOpenSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1884BD972A56EBC600518ED3 /* Build configuration list for PBXNativeTarget "TikTokOpenSDK" */;
+			buildPhases = (
+				1884BD8B2A56EBC600518ED3 /* Headers */,
+				1884BD8C2A56EBC600518ED3 /* Sources */,
+				1884BD8D2A56EBC600518ED3 /* Frameworks */,
+				1884BD8E2A56EBC600518ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikTokOpenSDK;
+			productName = TikTokOpenSDK;
+			productReference = 1884BD902A56EBC600518ED3 /* TikTokOpenSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1884BD872A56EBC600518ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1884BD8F2A56EBC600518ED3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1884BD8A2A56EBC600518ED3 /* Build configuration list for PBXProject "TikTokOpenSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1884BD862A56EBC600518ED3;
+			productRefGroup = 1884BD912A56EBC600518ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1884BD8F2A56EBC600518ED3 /* TikTokOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1884BD8E2A56EBC600518ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186E67032A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66FD2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F52A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66EE2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66EB2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E67012A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66E72A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F92A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66E52A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E67062A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66E22A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66ED2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66E02A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E67152A56F0EA00D70644 /* .gitkeep in Resources */,
+				186E66FF2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66E92A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E670D2A56F0EA00D70644 /* .gitkeep in Resources */,
+				186E66FB2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E67072A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66DF2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E67052A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F42A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E67042A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E67082A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66DC2A56F0EA00D70644 /* .gitkeep in Resources */,
+				186E66FC2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66E32A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66E42A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F12A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66EC2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F22A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F62A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66E62A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E67022A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66EA2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F82A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66E82A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66FE2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F02A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66EF2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F32A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66F72A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66FA2A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E67002A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66DD2A56F0EA00D70644 /* Images.xcassets in Resources */,
+				186E66E12A56F0EA00D70644 /* Passport.strings in Resources */,
+				186E66CE2A56F0EA00D70644 /* .gitkeep in Resources */,
+				186E66D52A56F0EA00D70644 /* .gitkeep in Resources */,
+				186E66DE2A56F0EA00D70644 /* Passport.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1884BD8C2A56EBC600518ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186E66CC2A56F0EA00D70644 /* TikTokURLHandler.swift in Sources */,
+				186E66D22A56F0EA00D70644 /* PKCE.swift in Sources */,
+				186E670A2A56F0EA00D70644 /* TikTokShareResponse.swift in Sources */,
+				186E670E2A56F0EA00D70644 /* TikTokShareRequestTest.swift in Sources */,
+				186E67142A56F0EA00D70644 /* TikTokOpenPlatformSDKDemoTests.m in Sources */,
+				186E67132A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m in Sources */,
+				186E66CD2A56F0EA00D70644 /* TikTokAPI.swift in Sources */,
+				186E66D82A56F0EA00D70644 /* TikTokAuthRequestTest.swift in Sources */,
+				186E66D62A56F0EA00D70644 /* TikTokUtilTest.swift in Sources */,
+				186E66CB2A56F0EA00D70644 /* TikTokInfo.swift in Sources */,
+				186E66D72A56F0EA00D70644 /* TikTokTestEnv.swift in Sources */,
+				186E67092A56F0EA00D70644 /* TikTokShareRequest.swift in Sources */,
+				186E670C2A56F0EA00D70644 /* TikTokShareService.swift in Sources */,
+				186E66D12A56F0EA00D70644 /* TikTokAuthRequest.swift in Sources */,
+				186E66C72A56F0EA00D70644 /* TikTokURLQueryParamsConvertible.swift in Sources */,
+				186E66CA2A56F0EA00D70644 /* TikTokUtils.swift in Sources */,
+				186E66D42A56F0EA00D70644 /* TikTokAuthService.swift in Sources */,
+				186E670B2A56F0EA00D70644 /* TikTokShareRequest+URLParams.swift in Sources */,
+				186E66C82A56F0EA00D70644 /* TikTokResponseHandling.swift in Sources */,
+				186E66CF2A56F0EA00D70644 /* TikTokOpenPlatformSDKDummy.m in Sources */,
+				186E66D92A56F0EA00D70644 /* TikTokHandlerTest.swift in Sources */,
+				186E670F2A56F0EA00D70644 /* TikTokTestEnv.swift in Sources */,
+				186E66DA2A56F0EA00D70644 /* TikTokAuthResponseTest.swift in Sources */,
+				186E66C62A56F0EA00D70644 /* TikTokBase.swift in Sources */,
+				186E66D32A56F0EA00D70644 /* TikTokAuthResponse.swift in Sources */,
+				186E67122A56F0EA00D70644 /* TikTokShareServiceTest.swift in Sources */,
+				186E66C52A56F0EA00D70644 /* TikTokRequestHandling.swift in Sources */,
+				186E67102A56F0EA00D70644 /* TikTokShareResponseTest.swift in Sources */,
+				186E66C92A56F0EA00D70644 /* TikTokRSA.swift in Sources */,
+				186E66D02A56F0EA00D70644 /* TikTokAuthRequest+URLParams.swift in Sources */,
+				186E66DB2A56F0EA00D70644 /* TikTokAuthServiceTest.swift in Sources */,
+				186E67112A56F0EA00D70644 /* TikTokHandlerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1884BD952A56EBC600518ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1884BD962A56EBC600518ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1884BD982A56EBC600518ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.TikTokOpenSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1884BD992A56EBC600518ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.TikTokOpenSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1884BD8A2A56EBC600518ED3 /* Build configuration list for PBXProject "TikTokOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884BD952A56EBC600518ED3 /* Debug */,
+				1884BD962A56EBC600518ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1884BD972A56EBC600518ED3 /* Build configuration list for PBXNativeTarget "TikTokOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884BD982A56EBC600518ED3 /* Debug */,
+				1884BD992A56EBC600518ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1884BD872A56EBC600518ED3 /* Project object */;
+}
