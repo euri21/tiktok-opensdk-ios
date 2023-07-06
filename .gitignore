@@ -18,7 +18,6 @@ profile
 DerivedData
 *.hmap
 *.ipa
-*.xcodeproj/
 *.pbxproj
 
 # Bundler
@@ -46,3 +45,4 @@ Pods/
 Example/Gemfile.lock 
 Gemfile.lock
 
+TikTokOpenSDK.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
