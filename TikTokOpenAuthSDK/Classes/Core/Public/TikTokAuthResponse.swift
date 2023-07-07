@@ -6,7 +6,6 @@
  */
 
 import Foundation
-import TikTokOpenSDKCore
 
 @objc (TTKSDKAuthResponseErrorCode)
 public enum TikTokAuthResponseErrorCode: Int {

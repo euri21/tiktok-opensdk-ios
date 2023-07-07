@@ -6,7 +6,6 @@
  */
 
 import Foundation
-import TikTokOpenSDKCore
 
 /// The result type of this sharing
 @objc (TTKSDKShareResponseState)

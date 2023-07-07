@@ -6,7 +6,6 @@
  */
 
 import Foundation
-import TikTokOpenSDKCore
 
 extension TikTokAuthRequest: TikTokURLQueryParamsConvertible {
     

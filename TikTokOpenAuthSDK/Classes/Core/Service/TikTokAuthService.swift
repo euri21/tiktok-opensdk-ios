@@ -6,7 +6,7 @@
  */
 
 import Foundation
-import TikTokOpenSDKCore
+import UIKit
 
 @objc (TTKSDKAuthService)
 class TikTokAuthService: NSObject, TikTokRequestResponseHandling {

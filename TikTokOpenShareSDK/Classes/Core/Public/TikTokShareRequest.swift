@@ -6,7 +6,6 @@
  */
 
 import Foundation
-import TikTokOpenSDKCore
 
 /// The type of media shared to TikTok
 @objc (TTKSDKShareMediaType)

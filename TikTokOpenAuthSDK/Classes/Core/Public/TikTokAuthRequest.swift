@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import TikTokOpenSDKCore
 
 @objc (TTKSDKAuthRequest)
 public final class TikTokAuthRequest: NSObject, TikTokBaseRequest {
