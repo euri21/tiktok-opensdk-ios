@@ -23,12 +23,16 @@ class TikTokAuthService: NSObject, TikTokRequestResponseHandling {
         guard let openURL = TikTokAuthService.buildOpenURL(from: authReq) else { return false }
         self.completion = completion
         self.redirectURI = authReq.redirectURI
-        UIApplication.shared.open(openURL, options: [:]) { [weak self] success in
-            guard let self = self else { return }
-            if !success, let cancelURL = self.constructCancelURL() {
-                self.handleResponseURL(url: cancelURL)
+        
+        DispatchQueue.main.async {
+            UIApplication.shared.open(openURL, options: [:]) { [weak self] success in
+                guard let self = self else { return }
+                if !success, let cancelURL = self.constructCancelURL() {
+                    self.handleResponseURL(url: cancelURL)
+                }
             }
         }
+
         return true
     }
     
@@ -66,12 +70,16 @@ class TikTokAuthService: NSObject, TikTokRequestResponseHandling {
         guard let url = Self.formWebAuthURL(fromRequest: request) else { return false }
         self.completion = completion
         self.redirectURI = request.redirectURI
-        UIApplication.shared.open(url, options: [:]) { [weak self] success in
-            guard let self = self else { return }
-            if !success, let cancelURL = self.constructCancelURL() {
-                self.handleResponseURL(url: cancelURL)
+        
+        DispatchQueue.main.async {
+            UIApplication.shared.open(url, options: [:]) { [weak self] success in
+                guard let self = self else { return }
+                if !success, let cancelURL = self.constructCancelURL() {
+                    self.handleResponseURL(url: cancelURL)
+                }
             }
         }
+        
         return true
     }
     
